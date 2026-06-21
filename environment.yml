@@ -1,0 +1,16 @@
+name: evaluación_complementaria_3
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - black
+  - flake8
+  - isort
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
